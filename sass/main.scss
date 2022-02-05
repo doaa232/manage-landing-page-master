@@ -1,0 +1,66 @@
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+
+
+@import '_menu';
+@import '_header';
+@import '_about';
+@import '_informations';
+@import '_developer';
+@import "footer";
+@import "_responsive";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+} 
+:root{
+    --primary-color:rgb(224, 216, 216);
+    --secondary-color:#f3603c;
+}
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+    &:active {
+        transform: translateY(-2px);
+        font-weight: bold;
+    }
+}
+
+
+[v-cloak]{
+    display: none;
+}

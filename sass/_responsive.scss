@@ -1,0 +1,194 @@
+
+
+@include media-md {
+    .menu-btn {
+        visibility: hidden;
+    } 
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            display: block;
+            height: 100%;
+            background: transparent;
+            text-align: center;
+            transform: translateY(0);
+            margin-top: 23px;
+            width: 100%;
+            
+            &_item{
+                display: inline;
+                padding: 0 5px;
+        
+
+                a {
+                    font-size: 17px;
+                }
+            }
+        }
+        
+        
+    }
+
+    .navbar button {
+        display: block;
+    }
+    
+    
+    header {
+        .title {
+            margin-top: 20px;
+
+            img {
+                width: 543px;
+                height: 471px;
+            }
+
+            h1 {
+                width: 503px;
+                font-size: 55px;
+            }
+        }
+
+    }
+
+    .about .differences .differ{
+                margin: 5px auto 35px;
+                width: 666px;
+
+    }
+
+}
+
+
+
+
+
+
+
+@include media-lg {
+
+    .nav .menu-nav_item a {
+        font-size: 19px;
+        margin-right: 5px;
+    }
+
+    header { 
+        .title {
+            display: flex;
+            direction: rtl;
+
+            img {
+                width: 523px;
+            }
+
+            h1 {
+                text-align: end;
+                width: 476px;
+                margin-left: 7vw;
+                font-size: 58px;
+            }
+
+            p {
+                margin: 47px auto 29px;
+                line-height: 1.8;
+            }
+        }
+    }
+
+    .about {
+        display: flex;
+
+        .differences {
+            width: 50%;
+            margin-left: 12vw;
+        }
+
+        .title {
+            width: 512px;
+            text-align: end;
+
+            h3 {
+                margin-top: 21px;
+                text-align: initial;
+                width: 76%;
+            }
+            p {
+                text-align: initial;
+                width: 75%;
+            }
+        }
+    }
+
+    .about .differences .differ {
+        width: 100%;
+    }
+
+    .developer {
+        display: flex;
+
+        h3 {
+            width: 52%;
+        }
+    }
+
+    footer {
+        position: relative;
+        height: 38vh;
+
+        form {
+            position: absolute;
+            right: 36px;
+            top: 67px;
+        }
+        .items {
+            position: initial;
+            right: 450px;
+            top: 23px;
+        }
+        .img {
+            position: absolute;
+            left: 72px;
+            top: 131px;
+            width: 202px;
+
+            img {
+                margin: 0 2px 0 5px;
+            }
+        }
+        .logo {
+            position: absolute;
+            left: 98px;
+            transform: scale(1.2);
+            top: 41px;
+        }
+        span {
+            position: absolute;
+            right: 60px;
+            top: 154px;
+        }
+    }
+
+}
+
+@media screen and (max-width:450px){
+    header .title img {
+        height: 447px;
+        width: 405px;
+    }
+    .nav .menu-nav {
+        height: 55vh;
+        width: 95vw;
+    }
+
+    .informations .card {
+        width: 368px;
+    }
+
+    .informations .change span .left {
+        left: -134px;
+    }
+    .informations .change span .right {
+        right: -134px;
+    }
+}

@@ -1,0 +1,47 @@
+ 
+header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    .title {
+        padding-top: 137px;
+        display: grid;
+        text-align: center;
+
+        img {
+            height: 467px;
+            width: 433px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 10px auto;
+            width: 403px;
+            font-size: calc(3vw + 2em);
+            color: #000;
+        }
+
+        p {
+            width: 381px;
+            line-height: 1.6;
+            margin: 10px auto 37px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        
+        button{
+            cursor: pointer;
+            background-color: var(--secondary-color);
+            padding: 16px 28px;
+            border-radius: 20px;
+            color: white;
+            margin: auto;
+            font-weight: bold;
+            width: 140px;
+        }
+
+        
+    }
+
+}
+

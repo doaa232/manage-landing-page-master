@@ -1,0 +1,100 @@
+
+.informations {
+    overflow: hidden;
+    text-align: center;
+
+    h2 {
+        font-size: 36px;
+        width: 310px;
+        margin: 40px auto;
+    }
+
+    .card {
+        width: 450px;
+        margin: 110px auto 50px;
+        background-color: #b9b9b9;
+        padding: 0 39px 20px;
+        text-align: center;
+
+        .img {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 84px;
+                margin: -41px 0 33px;
+            }
+        }
+
+        h5 {
+            font-size: 23px;
+            margin-bottom: 21px;
+        }
+        
+        p {
+            line-height: 1.6;
+        }
+    }
+
+    .change {
+        position: relative;
+
+        span {
+            transform: scale(1.5);
+            font-size: 58px;
+            position: absolute;
+            cursor: pointer;
+            opacity: .6;
+
+            .left {
+                top: -107px;
+                left: -164px;
+                position: absolute;
+            }
+            .right {
+                top: -107px;
+                right: -164px;
+                position: absolute;
+            }
+        }
+    }
+
+    .signs {
+        width: 102px;
+        height: 20px ;
+        margin: 0 auto 20px;
+
+
+        span {
+            background-color: #fff;
+            border: 1px solid var(--secondary-color);
+            border-radius: 15px;
+            margin-right: 3px;
+            padding: 0 6px;
+            color: transparent;
+            cursor: pointer;
+        }
+
+        .active {
+            background-color: var(--secondary-color);
+        }
+    }
+
+    button {
+        cursor: pointer;
+        background-color: var(--secondary-color);
+        padding: 16px 28px;
+        border-radius: 20px;
+        margin: auto;
+        font-weight: bold;
+        width: 140px;
+        font-size: 15px;
+        margin-bottom: 30px;
+
+        a {
+            color: #fff;
+        }
+    }
+    
+
+}

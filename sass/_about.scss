@@ -1,0 +1,52 @@
+
+
+.about {
+    overflow: hidden;
+    margin-top: 90px;
+
+    h3 {
+        width: 264px;
+        margin: 0 auto;
+        font-size: 35px;
+    }
+
+    .p{
+        line-height: 1.7;
+        width: 70%;
+        margin: 20px auto 40px;
+        font-size: 19px;
+        text-align: center;
+    }
+    
+    .differences {
+        width: 100%;
+
+        .differ {
+            margin: 5px 0 35px 20px;
+
+            div {
+                background-color: #f3603c40;
+                padding: 10px 0;
+                border-radius: 20px 0 0 20px;
+
+                h4 {
+                    display: inline;
+                }
+
+                span {
+                    background-color: var(--secondary-color);
+                    border-radius: 20px;
+                    padding: 10px 25px;
+                    margin-right: 13px;
+                }
+
+            }
+            p {
+                line-height: 1.7;
+                margin-top: 14px;
+            }
+        }
+    }
+
+
+}

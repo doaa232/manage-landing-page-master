@@ -1,0 +1,31 @@
+
+
+.developer {
+    overflow: hidden;
+    display: grid;
+    text-align: center;
+    padding: 30px 0 40px;
+    background-color: var(--secondary-color);
+
+    h3 {
+        width: 80%;
+        text-align: center;
+        font-size: 48px;
+        margin: 20px auto;
+
+        color: #fff;
+    }
+
+    button {
+        cursor: pointer;
+        background-color: #fff;
+        padding: 16px 28px;
+        border-radius: 20px;
+        color: var(--secondary-color);
+        margin: auto;
+        font-weight: bold;
+        width: 140px;
+        font-size: 15px;
+    }
+
+}
